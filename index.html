@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amēlija Joca</title>
+<style>
+  body {
+    background-color: rgb(255, 219, 233);
+    font-family: sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+
+  .aligncenter {
+    text-align: center;
+  }
+
+  .nav-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    font-size: 30px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  li {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    clear: all;
+  }
+
+  button {
+    width: 450px;
+    height: 150px;
+    font-size: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .column {
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .column img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  section {
+    display: none;
+  }
+
+  section:target {
+    display: block;
+  }
+
+  p {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h2, h3, h4, li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media(max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<section id="main">
+  <h1 class="aligncenter">
+    <img src="Avant.png" alt="centered image" />
+  </h1>
+  <h2>Par zīmola misiju un vērtībām:</h2>
+  <ul>
+    <li><b>Misija:</b>
+      <ul><b>Inovācija un drosme</b> - Avant nebaidās eksperimentēt ar jauniem materiāliem, dizainiem un idejām.</ul>
+      <ul><b>Individualitāte un autentiskums</b> - mūsu dizaini ir radīti, lai atspoguķotu radošumu un pašizpausmi.</ul>
+      <ul><b>Ilgtspējība un apzināta mode</b> - Avant veido nākotnes modi ar atbildību pret planētu.</ul>
+    </li>
+    <li><b>Vērtības:</b> “Avant” ir kustība, kas definē nākotnes modi. Mēs apvienojam inovācijas, ilgtspējību un drosmīgu dizainu. “Wear the Future” ir filozofija, kas veicina pārmaiņas gan garderobē, gan pasaulē.</li>
+  </ul>
+
+  <h3>Par apģērbu:</h3>
+  <div class="nav-links">
+    <a href="#outfit">
+      <img src="Apģerbs5.jpg" alt="click here" height="400px" width="400px" hspace="30" vspace="20" onmouseover="this.src='Avant.png'" onmouseout="this.src='Apģerbs5.jpg'" />
+    </a>
+  </div>
+  <ul>
+    <li><b>Iedvesmas avots</b> – papīra tērpi, maska veidota no avīzēm. Katru papīru aplīmēja ar līmlenti un piešūva pie topa un svārkiem. Izveidota rozā bante.</li>
+  </ul>
+
+  <h4>Par dizaineru:</h4>
+  <div class="nav-links">
+    <a href="#designer">
+      <img src="Dizainers5.jpg" alt="click here" height="400px" width="400px" hspace="30" vspace="20" onmouseover="this.src='Avant.png'" onmouseout="this.src='Dizainers5.jpg'" />
+    </a>
+  </div>
+  <ul>
+    <li>Amēlija Joca, mācās radošās industrijas nozarē, patīk māksla un mūzika.</li>
+  </ul>
+  <footer style="text-align: center; padding: 20px; background-color: rgb(255, 219, 233); color: rgb(0, 0, 0); font-size: 16px; margin-top: 50px;">
+  Mājaslapas izstrādātāja: Zane Kārkliņa © 2025
+</footer>
+</section>
+
+<section id="outfit">
+  <h1 class="aligncenter">
+    <img src="Avant.png" alt="centered image" />
+  </h1>
+  <p>Vairāk bildes ar tērpa taisīšanas procesu:</p>
+  <div class="row">
+    <div class="column"><img src="Apģerbs1.jpg" alt="1"></div>
+    <div class="column"><img src="Apģerbs2.jpg" alt="2"></div>
+    <div class="column"><img src="Apģerbs3.jpg" alt="3"></div>
+    <div class="column"><img src="Apģerbs4.jpg" alt="4"></div>
+    <div class="column"><img src="Apģerbs5.jpg" alt="5"></div>
+  </div>
+  <h2>
+    <a href="#main">
+      <button style="color: white; background-color: black;">Atgriezties</button>
+    </a>
+  </h2>
+</section>
+
+<section id="designer">
+  <h1 class="aligncenter">
+    <img src="Avant.png" alt="centered image" />
+  </h1>
+  <p>Vairāk bildes ar Dizaineru un tērpu:</p>
+  <div class="row">
+    <div class="column"><img src="Dizainers1.jpg" alt="1"></div>
+    <div class="column"><img src="Dizainers2.jpg" alt="2"></div>
+    <div class="column"><img src="Dizainers3.jpg" alt="3"></div>
+    <div class="column"><img src="Dizainers4.jpg" alt="4"></div>
+    <div class="column"><img src="Dizainers5.jpg" alt="5"></div>
+  </div>
+  <h2>
+    <a href="#main">
+      <button style="color:black;">Atgriezties</button>
+    </a>
+  </h2>
+</section>
+</body>
+</html>
