@@ -66,12 +66,13 @@
   }
 
   section {
-    display: none;
-  }
+  display: none;
+}
 
-  section:target {
-    display: block;
-  }
+section:target,
+section.active:has(:not(:target)) {
+  display: block;
+}
 
   p {
     font-size: 50px;
@@ -98,8 +99,7 @@
 </style>
 </head>
 <body>
-
-<section id="main">
+<section id="main" class="active"></section>
   <h1 class="aligncenter">
     <img src="Avant.png" alt="centered image" />
   </h1>
